@@ -251,6 +251,7 @@ body.light .projects {
 	text-align: center;
 	padding-bottom: 20px;
 	font-size: 40px;
+	color: #5c62ec;
 }
 
 body.light .title {
@@ -403,6 +404,89 @@ body.light .skill__inner {
 	text-align: center;
 }
 
+/*! Contacts block ============================>  */
+.contacts {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: calc(100vh - 150px);
+}
+
+body.light .contacts {
+	background-color: #171718;
+}
+
+.contacts__inner {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	gap: 25px;
+}
+
+.contact-name {
+	font-size: 30px;
+}
+body.light .contact-name {
+	color: #fff;
+}
+
+.contact-text a {
+	color: blue;
+}
+
+body.light .contacts__inner a {
+	color: red !important;
+}
+
+body.light .contact-text {
+	color: #fff;
+}
+
+/*! Work block ============================>  */
+
+.work {
+	width: 100%;
+	height: calc(100vh - 150px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.work__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.work-up img {
+	width: 180px;
+}
+.work-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.work-title {
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 24px;
+}
+.work-text {
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.work-links a {
+	color: blue;
+}
+
 /*! Footer block ============================>  */
 footer {
 	text-align: center;
@@ -523,6 +607,15 @@ body.light .socials i {
 	.socials i {
 		font-size: 70px;
 	}
+	.skills {
+		height: calc(100vh - 250px);
+	}
+	.skill__inner {
+		max-width: 1000px;
+	}
+	.contacts {
+		height: calc(100vh - 250px);
+	}
 }
 @media screen and (max-width: 500px) {
 	.header-logo {
@@ -631,5 +724,38 @@ body.light .socials i {
 	.intro-btn {
 		font-size: 11px;
 		padding: 6px 10px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.projects nav ul li {
+		font-size: 14px;
+		padding: 2px 4px;
+	}
+	.projects nav ul {
+		column-gap: 10px;
+	}
+	.contacts__inner h3 {
+		font-size: 16px;
+	}
+	.contacts__inner a {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 250px) {
+	.skills-text {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 220px) {
+	.box {
+		width: 150px;
+		height: 100px;
+	}
+	.box img {
+		width: calc(150px - 3px);
+		height: calc(100px - 3px);
 	}
 }
