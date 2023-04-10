@@ -378,6 +378,12 @@ body.light .skills {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	gap: 20px;
+}
+
+.skill-item {
+	margin: 0 auto;
+	text-align: center;
 }
 body.light .skill__inner {
 	color: #fff;
