@@ -62,6 +62,11 @@ body.light .header__inner {
 }
 .header-logo {
 	font-weight: normal;
+	color: #fff;
+}
+
+body.light .header-logo {
+	color: #000;
 }
 .header-logo span {
 	font-weight: bold;
