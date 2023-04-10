@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./styles/main.css" />
+		<script
+			src="https://kit.fontawesome.com/39bbe9b596.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header-logo"><span>Programmer</span> portfolio</div>
+					<nav class="header-nav">
+						<a href="#">Projects</a>
+						<a href="#">Skills</a>
+						<a href="#">Contacts</a>
+						<div class="theme-change">
+							<div class="theme-circle"></div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section class="projects">
+			<h2 class="title">Projects</h2>
+			<div class="container">
+				<nav>
+					<ul>
+						<li data-filter="all" class="all filterLi">All</li>
+						<li data-filter="dom" class="dom filterLi">DOM</li>
+						<li data-filter="react" class="react filterLi">React</li>
+						<li data-filter="api" class="api filterLi">API</li>
+					</ul>
+				</nav>
+				<div class="project__inner">
+					<a href="#" class="box dom all">
+						<img src="./styles/img/random-color.png" alt="Random bg color" />
+						<span class="img-text">See info</span>
+					</a>
+					<a href="#" class="box api all">
+						<img src="./styles/img/random-dog.png" alt="Random dog" />
+						<span class="img-text">See info</span>
+					</a>
+					<a href="#" class="box dom all"
+						><img src="./styles/img/modal.png" alt="Modal window" />
+						<span class="img-text">See info</span>
+					</a>
+					<a href="#" class="box dom all">
+						<img src="./styles/img/calculator.png" alt="Calculator" />
+						<span class="img-text">See info</span>
+					</a>
+					<a href="#" href="#" a class="box react all">
+						<img src="./styles/img/quiz.png" alt="Quiz" />
+						<span class="img-text">See info</span>
+					</a>
+					<a href="#" class="box dom all">
+						<img src="./styles/img/themes.png" alt="Theme changer" />
+						<span class="img-text">See info</span>
+					</a>
+					<a href="#" class="box react all">
+						<img src="./styles/img/counter.png" alt="Counter" />
+						<span class="img-text">See info</span>
+					</a>
+					<a href="#" class="box dom all">
+						<img src="./styles/img/countdown.png" alt="Countdown timer" />
+						<span class="img-text">See info</span>
+					</a>
+					<a href="#" class="box dom all">
+						<img src="./styles/img/quotes.jpg" alt="Random quotes" />
+						<span class="img-text">See info</span>
+					</a>
+					<a href="#" class="box dom all">
+						<img src="./styles/img/burger-popup.jpg" alt="Popup" />
+						<span class="img-text">See info</span>
+					</a>
+					<a href="#" class="box dom all">
+						<img src="./styles/img/faqs.png" alt="FAQs" />
+						<span class="img-text">See info</span></a
+					>
+				</div>
+			</div>
+		</section>
+
+		<script src="filter.js"></script>
+		<script src="theme.js"></script>
+	</body>
+</html>
