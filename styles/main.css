@@ -456,6 +456,11 @@ body.light .contact-text {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 50px 0;
+}
+
+body.light .work {
+	background-color: #171718;
 }
 .work__item {
 	display: flex;
@@ -472,6 +477,10 @@ body.light .contact-text {
 	align-items: center;
 	flex-direction: column;
 }
+
+body.light .work-info {
+	color: #fff;
+}
 .work-title {
 	text-align: center;
 	font-size: 24px;
@@ -485,6 +494,10 @@ body.light .contact-text {
 
 .work-links a {
 	color: blue;
+}
+
+body.light .work-links a {
+	color: red;
 }
 
 /*! Footer block ============================>  */
@@ -616,6 +629,21 @@ body.light .socials i {
 	.contacts {
 		height: calc(100vh - 250px);
 	}
+	.work {
+		height: calc(100vh - 250px);
+	}
+	.work-text {
+		font-size: 32px;
+	}
+	.work-links {
+		font-size: 28px;
+	}
+	.work-title {
+		font-size: 40px;
+	}
+	.work-up img {
+		width: 400px;
+	}
 }
 @media screen and (max-width: 500px) {
 	.header-logo {
@@ -739,6 +767,9 @@ body.light .socials i {
 		font-size: 16px;
 	}
 	.contacts__inner a {
+		font-size: 12px;
+	}
+	.work-text {
 		font-size: 12px;
 	}
 }
